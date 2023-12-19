@@ -7,7 +7,7 @@ Change the array nums such that the first k elements of nums contain the element
 Return k
 */
 class Solution {
-    public static int removeElement(int[] nums, int val) {
+    public int removeElement(int[] nums, int val) {
         int index = 0;
         for(int i = 0; i < nums.length; i++) {
             if(nums[i] != val) {
