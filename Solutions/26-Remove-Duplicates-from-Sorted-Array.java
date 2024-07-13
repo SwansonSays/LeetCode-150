@@ -9,7 +9,7 @@ The remaining elements of nums are not important as well as the size of nums.
 Return k.
  */
 
-class Solution {
+class Solution26 {
     public int removeDuplicates(int[] nums) {
         int index = 0;
         for(int i = 1; i < nums.length; i++) {
