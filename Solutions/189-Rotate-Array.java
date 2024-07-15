@@ -1,3 +1,6 @@
+/*
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+ */
 class Solution189 {
     private void reverse(int[] nums, int start, int end) {
         while (start < end) {
